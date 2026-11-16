@@ -1,5 +1,6 @@
 title: "dlssg-for-sm86-node"
-description: "High availability  and network topology specifications for sdli1995/dlssg_for_sm86 - Enhanced performance edition with automated verification."
-theme: jekyll-theme-cayman
-plugins:
-  - jekyll-relative-links
+description: "Official architecture documentation and production specifications for dlssg-for-sm86-node"
+lang: en-US
+exclude:
+  - node_modules
+  - .git

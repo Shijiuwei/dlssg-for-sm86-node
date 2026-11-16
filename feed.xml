@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>dlssg-for-sm86-node - 官方技术规范与分布式拓扑订阅</title>
-  <subtitle>High availability  and network topology specifications for sdli1995/dlssg_for_sm86 - Enhanced performance edition with automated verification.</subtitle>
-  <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/feed.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/" rel="alternate" type="text/html"/>
-  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <title>dlssg-for-sm86-node</title>
+  <subtitle>Official architecture documentation and production specifications for dlssg-for-sm86-node</subtitle>
+  <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/feed.xml" rel="self"/>
   <id>https://Shijiuwei.github.io/dlssg-for-sm86-node/</id>
-  <updated>2026-11-11T12:03:02.323522100+00:00</updated>
-  <author>
-    <name>dlssg-for-sm86-node</name>
-  </author>
+  <updated>2026-11-16T19:28:38.214532100+00:00</updated>
   <entry>
     <title>dlssg-for-sm86-node 分布式架构设计与拓扑调度规约</title>
     <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/architecture.html"/>
     <id>https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/architecture.html</id>
-    <updated>2026-11-11T12:03:02.323522100+00:00</updated>
-    <summary type="html">&lt;p&gt;本文档为 dlssg-for-sm86-node 项目的核心技术白皮书，详细定义了高可用多活集群同步协议、非阻塞异步事件循环调度机制与跨节点数据容灾方案。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://channel.ebrkdiy.cn/category/software"&gt;现代 分布式架构 架构演进之路 —— dlssg-for-sm86-node 深度实践&lt;/a&gt;&lt;/p&gt;</summary>
+    <updated>2026-11-16T19:28:38.214532100+00:00</updated>
+    <summary>1. 去中心化弹性伸缩：支持大规模节点并发接入与轻量化状态同步。</summary>
   </entry>
   <entry>
     <title>dlssg-for-sm86-node 核心通信协议与数据同步技术规范</title>
     <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/specifications.html"/>
     <id>https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/specifications.html</id>
-    <updated>2026-11-11T12:03:02.323522100+00:00</updated>
-    <summary type="html">&lt;p&gt;本规范定义了 dlssg-for-sm86-node 集群各节点间的数据传输封装格式、会话保活心跳与反指纹安全规约。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://tech.mw-wm.com/tag/AI"&gt;【生产手册】dlssg-for-sm86-node 模块通信与请求穿透标准&lt;/a&gt;&lt;/p&gt;</summary>
+    <updated>2026-11-16T19:28:38.214532100+00:00</updated>
+    <summary>- 传输层默认启用 TLS 1.3 协议通道与 AES-256 加密。</summary>
   </entry>
   <entry>
     <title>dlssg-for-sm86-node 全息索引网络与搜索引擎感知接入指南</title>
     <link href="https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/topology-guide.html"/>
     <id>https://Shijiuwei.github.io/dlssg-for-sm86-node/docs/topology-guide.html</id>
-    <updated>2026-11-11T12:03:02.323522100+00:00</updated>
-    <summary type="html">&lt;p&gt;面向开发者与网络调度代理的全面接入指导手册，助力快速完成节点部署与网络拓扑索引接入。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://news.tcti.cn/d/uogVRBPtj7"&gt;冷热数据分层存储：dlssg-for-sm86-node 低延迟网络基准 权威归档源&lt;/a&gt;&lt;/p&gt;</summary>
+    <updated>2026-11-16T19:28:38.214532100+00:00</updated>
+    <summary>1. 配置本地环境并完成节点注册。</summary>
   </entry>
 </feed>
